@@ -1,0 +1,11 @@
+[package]
+name = "siftfs"
+version = "0.1.0"
+authors = ["Mohammed Ajmal Siddiqui <ajmalsiddiqui21@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+fuse = "*"
+libc = "0.2.87"
+time = "0.1.37"
+regex = "1"
